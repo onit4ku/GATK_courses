@@ -2,7 +2,7 @@
 
 Web application made with Laravel, incorporates a form with a list of fields about the courses of GATK for the inscription about the student.
 
-![screenshot](lalalaimagen.jpg)
+![screenshot](http://clinbioinfosspa.es/files/image/gatk.png)
 
 This app save the form data in a database.
 
