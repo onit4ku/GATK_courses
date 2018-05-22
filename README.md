@@ -55,10 +55,10 @@ Create an .env file in the root of the project or use the .env-getting-started a
     REDIS_PASSWORD=null
     REDIS_PORT=6379
 
-* Check the file .env and configure your settings about your database.
+Check the file .env and configure your settings about your database.
 
-  cd GATK_courses
-  composer install
+    cd GATK_courses
+    composer install
 
 To generate the app key use:
 
