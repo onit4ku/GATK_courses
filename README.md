@@ -34,6 +34,8 @@ Create an .env file in the root of the project or use the .env-getting-started a
     APP_NAME=GATK_courses
     APP_ENV=local
     APP_KEY=base64:PX6CDzfFaqmXovLwlRS2u4xm83IVnzEHiQqubS//Eg8=
+
+    # For local development, you should set the APP_DEBUG environment variable to true
     APP_DEBUG=true
     APP_LOG_LEVEL=debug
     APP_URL=http://localhost
@@ -55,20 +57,34 @@ Create an .env file in the root of the project or use the .env-getting-started a
     REDIS_PASSWORD=null
     REDIS_PORT=6379
 
-Check the file .env and configure your settings about your database.
+### Check the file .env and configure your settings about your database
 
     cd GATK_courses
     composer install
 
-To generate the app key use:
+### To generate the app key
 
     php artisan key:generate
 
-To create the tables of the db use:
+### To create the tables of the db
 
     php artisan migrate
 
-And if you want, you can use the built in php server to run the app:
+### To rollback & migrate in single command
+
+    php artisan migrate:refresh --seed
+
+This will refresh the database and run all database seeds...
+
+### Drop All Tables & Migrate
+
+The migrate:fresh command will drop all tables from the database and then execute the  migrate command:
+
+    php artisan migrate:fresh
+
+    php artisan migrate:fresh --seed
+
+### To use the built in php server to run the app
 
     php artisan serve
 
