@@ -11,6 +11,7 @@ class CreateGatkcoursesTable extends Migration
      *
      * @return void
      */
+
     public function up()
     {
         Schema::create('g_a_t_k_s', function (Blueprint $table) {
@@ -22,12 +23,15 @@ class CreateGatkcoursesTable extends Migration
             $table->string('inputCompany');
             $table->string('inputPosition');
             $table->string('inputFullName');
-            $table->string('inputEmail');
+            $table->string('inputEmail')->unique();
+            $table->string('inputDinner');
+            $table->integer('seats')->default(30);
+            $table->integer('occupiedSeats')->default(0);
             $table->timestamps();
         });
     }
 
-    /**
+    /** 
      * Reverse the migrations.
      *
      * @return void
@@ -36,4 +40,4 @@ class CreateGatkcoursesTable extends Migration
     {
         Schema::dropIfExists('g_a_t_k_s');
     }
-}
+} 

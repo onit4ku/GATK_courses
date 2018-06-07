@@ -14,15 +14,17 @@
 
             <h2>Application for GATK Workshop</h2>
             <h5>17/09/2018 - 21/09/2018, Seville, Spain.</h5>
+
             <br>
-                    <div class="logoGATK">
-                        <a href="http://clinbioinfosspa.es" target="_blank"><img src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" alt="logoBroad" class="img-responsive" style="width:150px;"></a>
-                        <a href="https://software.broadinstitute.org/gatk/" target="_blank"><img src="https://cloud.google.com/genomics/resources/gatk-logo.png" alt="logoGATK" class="img-responsive" style="width:150px;"></a>
-                        <a href="https://www.broadinstitute.org/"><img src="http://genomicinfo.broadinstitute.org/cdnr/78/acton/attachment/13431/f-0004/2/-/-/-/-/image.png" alt="logoBroad" class="img-responsive" style="width:200px;"></a>
-                    </div>
+            <div class="logoGATK">
+                <a href="http://clinbioinfosspa.es" target="_blank"><img src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" alt="logoBroad" class="img-responsive" style="width:150px;"></a>
+                <a href="https://software.broadinstitute.org/gatk/" target="_blank"><img src="https://cloud.google.com/genomics/resources/gatk-logo.png" alt="logoGATK" class="img-responsive" style="width:150px;"></a>
+                <a href="https://www.broadinstitute.org/"><img src="http://genomicinfo.broadinstitute.org/cdnr/78/acton/attachment/13431/f-0004/2/-/-/-/-/image.png" alt="logoBroad" class="img-responsive" style="width:200px;"></a>
+            </div>
         
-                    <div class="clear"></div>
-                <br>
+            <div class="clear"></div>
+            <br>
+
             <h4>Please answer the following application questions:</h4>
             <p>All the fields are required.</p>
             <br>
@@ -94,6 +96,18 @@
                     data-error="Please type you full name." required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback">
+                <label for="inputDinner" class="control-label">Do you want to attend the Gala Dinner? (+50€)</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inputDinner" value="Yes" required> Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="inputDinner" value="No" required> No
+                    </label>
+                </div>
             </div>
 
             <div class="form-group has-feedback">

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class GATK extends Model
 {
-    //Esto es para recoger los campos del formulario que se meteran en la bd
+    //recoger los campos del formulario que se meteran en la bd
     protected $fillable = [
         'commandLine',
         'GATKfamiliar',
@@ -16,5 +16,6 @@ class GATK extends Model
         'inputCompany', 
         'inputPosition', 
         'inputFullName',
+        'inputDinner',
         'inputEmail'    ];
 }

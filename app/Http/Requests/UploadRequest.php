@@ -31,6 +31,7 @@ class UploadRequest extends FormRequest
         'inputCompany'=> 'required', 
         'inputPosition'=> 'required', 
         'inputFullName'=> 'required',
+        'inputDinner'=> 'required',
         'inputEmail'=> 'required'];
         return $rules;
     }
