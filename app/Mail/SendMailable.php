@@ -29,6 +29,6 @@ class SendMailable extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.name');
+        return $this->subject('Confirmation of Submission')->view('emails.name');
     }
 }

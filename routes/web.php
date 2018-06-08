@@ -15,7 +15,6 @@ Route::get('/upload', 'UploadController@uploadForm');
 Route::post('/upload', 'UploadController@uploadSubmit');
 Route::get('/upload', 'UploadController@uploadForm');
 Route::post('/upload', 'UploadController@uploadSubmit');
-Route::get('/send/email', 'HomeController@mail');
 
 Route::get('/', function () {
     return view('upload_form');
