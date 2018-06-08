@@ -67,52 +67,52 @@
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputInterests" class="control-label">Describe your group's research interests:</label>
-                <input type="text" class="form-control" id="interestsId" name="inputInterests" aria-describedby="inputInterests" placeholder=""
+                <label for="researchInterests" class="control-label">Describe your group's research interests:</label>
+                <input type="text" class="form-control" id="interestsId" name="researchInterests" aria-describedby="researchInterests" placeholder=""
                     data-error="Please enter the required information." required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputCompany" class="control-label">Institution / Group:</label>
-                <input type="text" class="form-control" id="inputCompany" name="inputCompany" aria-describedby="inputCompany" placeholder="Enter your group name."
+                <label for="institution" class="control-label">Institution / Group:</label>
+                <input type="text" class="form-control" id="institution" name="institution" aria-describedby="institution" placeholder="Enter your group name."
                     data-error="Please enter your group name." required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputPosition" class="control-label">Position:</label>
-                <input type="text" class="form-control" id="inputPosition" name="inputPosition" aria-describedby="inputPosition" placeholder="Enter your position."
+                <label for="position" class="control-label">Position:</label>
+                <input type="text" class="form-control" id="position" name="position" aria-describedby="position" placeholder="Enter your position."
                     data-error="Please enter your position." required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputFullName" class="control-label">Full Name:</label>
-                <input type="text" class="form-control" id="inputFullName" name="inputFullName" aria-describedby="inputInstitution" placeholder="Enter your full name."
+                <label for="fullName" class="control-label">Full Name:</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" aria-describedby="inputInstitution" placeholder="Enter your full name."
                     data-error="Please type you full name." required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputDinner" class="control-label">Do you want to attend the Gala Dinner? (+50€)</label>
+                <label for="inputDinner" class="control-label">Registration event:</label>
                 <div class="radio">
                     <label>
-                        <input type="radio" name="inputDinner" value="Yes" required> Yes
+                        <input type="radio" name="inputDinner" value="withDinner" required> Attending Gala Dinner (150€)
                     </label>
                     <label>
-                        <input type="radio" name="inputDinner" value="No" required> No
+                        <input type="radio" name="inputDinner" value="onlyEvent" required> Only Event (100€)
                     </label>
                 </div>
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputEmail" class="control-label">Email:</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Enter a valid email address." name="inputEmail" data-error="That email address is invalid."
+                <label for="email" class="control-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter a valid email address." name="email" data-error="That email address is invalid."
                     required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>

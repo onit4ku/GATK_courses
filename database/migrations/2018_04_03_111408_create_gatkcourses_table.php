@@ -19,13 +19,12 @@ class CreateGatkcoursesTable extends Migration
             $table->string('commandLine');
             $table->string('GATKfamiliar');
             $table->string('analyzeData');
-            $table->string('inputInterests');
-            $table->string('inputCompany');
-            $table->string('inputPosition');
-            $table->string('inputFullName');
-            $table->string('inputEmail')->unique();
+            $table->string('researchInterests');
+            $table->string('institution');
+            $table->string('position');
+            $table->string('fullName');
+            $table->string('email')->unique();
             $table->string('inputDinner');
-            $table->integer('seats')->default(30);
             $table->integer('occupiedSeats')->default(0);
             $table->timestamps();
         });

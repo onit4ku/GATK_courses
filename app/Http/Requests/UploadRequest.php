@@ -27,12 +27,12 @@ class UploadRequest extends FormRequest
         'commandLine' => 'required',
         'GATKfamiliar' => 'required',
         'analyzeData'=> 'required',
-        'inputInterests'=> 'required', 
-        'inputCompany'=> 'required', 
-        'inputPosition'=> 'required', 
-        'inputFullName'=> 'required',
+        'researchInterests'=> 'required', 
+        'institution'=> 'required', 
+        'position'=> 'required', 
+        'fullName'=> 'required',
         'inputDinner'=> 'required',
-        'inputEmail'=> 'required'];
+        'email'=> 'required'];
         return $rules;
     }
 }

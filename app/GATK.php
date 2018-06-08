@@ -12,10 +12,10 @@ class GATK extends Model
         'GATKfamiliar',
         'analyzeData',
         'inputBenefit', 
-        'inputInterests', 
-        'inputCompany', 
-        'inputPosition', 
-        'inputFullName',
+        'researchInterests', 
+        'institution', 
+        'position', 
+        'fullName',
         'inputDinner',
-        'inputEmail'    ];
+        'email'    ];
 }
