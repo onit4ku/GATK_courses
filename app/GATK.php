@@ -17,5 +17,6 @@ class GATK extends Model
         'position', 
         'fullName',
         'inputDinner',
-        'email'    ];
+        'email',
+        'waitingList'    ];
 }
