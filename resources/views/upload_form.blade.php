@@ -99,13 +99,13 @@
             </div>
 
             <div class="form-group has-feedback">
-                <label for="inputDinner" class="control-label">Registration event:</label>
+                <label for="inputDinner" class="control-label">Course registration:</label>
                 <div class="radio">
                     <label>
-                        <input type="radio" name="inputDinner" value="withDinner" required> Attending Gala Dinner (150€)
+                        <input type="radio" name="inputDinner" value="withDinner" required> Course and networking dinner (150€)
                     </label>
                     <label>
-                        <input type="radio" name="inputDinner" value="onlyEvent" required> Only Event (100€)
+                        <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (100€)
                     </label>
                 </div>
             </div>
