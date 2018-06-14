@@ -25,7 +25,7 @@
                 <h2>Suscriptions are closed right now.</h2>
                 <div class="error-details">You have been added to waiting list. We will send you an email to the provided adress as soon as we have vacancies again.</div>
                 <div class="error-actions">
-                    <a href="http://courseswiki.clinbioinfosspa.es/gatk2018/start" class="btn btn-primary btn-lg"><i class="fas fa-home"></i> Course Wiki</a><a href="mailto:secretariatecnica-clinbioinfosspa@juntadeandalucia.es" class="btn btn-default btn-lg"><i class="fas fa-envelope"></i> Contact Support </a>
+                    <a href="http://courseswiki.clinbioinfosspa.es/gatk2018/start" class="btn btn-primary btn-lg"><i class="fas fa-home"></i> Course Wiki</a><a href="mailto:secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es" class="btn btn-default btn-lg"><i class="fas fa-envelope"></i> Contact Support </a>
                 </div>
             </div>
         </div>

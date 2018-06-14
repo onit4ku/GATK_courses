@@ -28,7 +28,7 @@
                 If you have any questions or problems, do not hesitate to contact us at the link shown below, to register with another email use the button to return to the form.
                 </div>
                 <div class="error-actions">
-                    <a href="http://gatk2018.clinbioinfosspa.es/" class="btn btn-primary btn-lg"><i class="fas fa-home"></i> Go back</a><a href="mailto:secretariatecnica-clinbioinfosspa@juntadeandalucia.es" class="btn btn-default btn-lg"><i class="fas fa-envelope"></i> Contact Support </a>
+                    <a href="http://gatk2018.clinbioinfosspa.es/" class="btn btn-primary btn-lg"><i class="fas fa-home"></i> Go back</a><a href="mailto:secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es" class="btn btn-default btn-lg"><i class="fas fa-envelope"></i> Contact Support </a>
                 </div>
             </div>
         </div>

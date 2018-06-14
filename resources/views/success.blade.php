@@ -29,7 +29,7 @@
                     <p>Thank you!</p>
                 </div>
                 <div class="error-actions">
-                    <a href="http://courseswiki.clinbioinfosspa.es/gatk2018/start" class="btn btn-primary btn-lg"><i class="fas fa-home"></i> Course Wiki</a><a href="mailto:secretariatecnica-clinbioinfosspa@juntadeandalucia.es" class="btn btn-default btn-lg"><i class="fas fa-envelope"></i> Contact Support </a>
+                    <a href="http://courseswiki.clinbioinfosspa.es/gatk2018/start" class="btn btn-primary btn-lg"><i class="fas fa-home"></i> Course Wiki</a><a href="mailto:secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es" class="btn btn-default btn-lg"><i class="fas fa-envelope"></i> Contact Support </a>
                 </div>
             </div>
         </div>
