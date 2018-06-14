@@ -7,6 +7,7 @@ use App\GATK;
 
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMailable;
+use App\Mail\SendCopy;
 
 class UploadController extends Controller
 {
@@ -32,8 +33,13 @@ class UploadController extends Controller
             //mail
             $name = $request->all(['fullName']);
             $email = $request->all(['email']);
+            $position = $request->all(['position']);
+            $institution = $request->all(['institution']);
+            $gala = $request->all(['inputDinner']);
+            $copy = "secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es";
         
             Mail::to($email)->send(new SendMailable($name["fullName"]));
+            Mail::to($copy)->send(new SendCopy($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"]));
 
         } catch(\Illuminate\Database\QueryException $e){
             $errorCode = $e->errorInfo[1];
