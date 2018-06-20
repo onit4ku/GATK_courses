@@ -19,7 +19,7 @@
             <div class="logoGATK">
                 <a href="http://clinbioinfosspa.es" target="_blank"><img src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" alt="logoBroad" class="img-responsive" style="width:150px;"></a>
                 <a href="https://software.broadinstitute.org/gatk/" target="_blank"><img src="https://cloud.google.com/genomics/resources/gatk-logo.png" alt="logoGATK" class="img-responsive" style="width:150px;"></a>
-                <a href="https://www.broadinstitute.org/"><img src="http://genomicinfo.broadinstitute.org/cdnr/78/acton/attachment/13431/f-0004/2/-/-/-/-/image.png" alt="logoBroad" class="img-responsive" style="width:200px;"></a>
+                <a href="https://www.broadinstitute.org/"><img src="https://www.broadinstitute.org/sites/all/themes/custom/at_broad/logo.png" alt="logoBroad" class="img-responsive" style="width:200px;"></a>
             </div>
         
             <div class="clear"></div>
