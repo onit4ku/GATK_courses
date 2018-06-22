@@ -40,14 +40,25 @@ class UploadController extends Controller
 
             Mail::to($email)->send(new SendMailable($name["fullName"]));
             Mail::to($copy)->send(new SendCopy($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"]));
-
+         
         } catch(\Illuminate\Database\QueryException $e){
             $errorCode = $e->errorInfo[1];
             if($errorCode == '1062'){
                 // dd('Duplicate Entry');
                 return view('duplicate'); 
             }
-        }
-        return view('success');
+
+            if($errorCode != '1062'){
+                // bd error
+                return view('unknownerror'); 
+            }
+        }      
+
+        $email = $request->all(['email']);
+        if(GATK::where('email', $email)->get())
+        {   
+            return view('success');
+            
+        } 
     }
 }
