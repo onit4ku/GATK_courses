@@ -2,7 +2,16 @@
     <p>Dear {{ $name }},</p>
     
     <p>Thank you for submitting your registration to attend the GATK Workshop 2018 in Seville, Spain. Your registration has now been saved in our database.</p>
-    <p>You need to make the deposit and send the proof of income to the email address: secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es within the next 48 hours.</p>
+    
+    <p> Please, we need you to provide us with your tax information: </p>
+
+    <p>Full name</p>
+    <p>NIE / CIF</p>
+    <p>Organization, institution.</p>
+    <p>Billing Address</p>
+       
+    <p>And finally, you need to make the deposit and send the proof of income to the email address: secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es within the next 48 hours.</p>
+
     <p>If you require an invoice of the payment please request it at the aforementioned mail address.</p>
     <br>
 
