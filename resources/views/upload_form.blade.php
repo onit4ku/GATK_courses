@@ -13,8 +13,8 @@
             {{ csrf_field() }}
 
             <h2>Application for GATK Workshop</h2>
-            <h5>17/09/2018 - 21/09/2018, Seville, Spain.</h5>
-
+            <h5>2019-10-21 - 2019-10-24, Seville, Spain.</h5>
+            
             <br>
             <div class="logoGATK">
                 <a href="http://clinbioinfosspa.es" target="_blank"><img src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" alt="logoBroad" class="img-responsive" style="width:150px;"></a>
