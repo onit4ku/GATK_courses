@@ -31,19 +31,20 @@ Clone this repo by doing:
 
 Create an .env file in the root of the project or use the .env-getting-started and rename to .env with your configuration, here is an example of what the template would be:
 
-    APP_NAME=GATK_courses
+    APP_NAME=GATK_Workshop19
     APP_ENV=local
-    APP_KEY=base64:PX6CDzfFaqmXovLwlRS2u4xm83IVnzEHiQqubS//Eg8=
+    APP_KEY=
 
     # For local development, you should set the APP_DEBUG environment variable to true
-    APP_DEBUG=true
+    APP_DEBUG=false
     APP_LOG_LEVEL=debug
     APP_URL=http://localhost
+    APP_WAITING_LIST_LIMITED=30
 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=GATKcourses
+    DB_DATABASE=GATK_Workshop19
     DB_USERNAME=root
     DB_PASSWORD=root
 
@@ -57,6 +58,16 @@ Create an .env file in the root of the project or use the .env-getting-started a
     REDIS_PASSWORD=null
     REDIS_PORT=6379
 
+    MAIL_DRIVER=smtp
+    MAIL_HOST=smtp.mailtrap.io
+    MAIL_PORT=2525
+    MAIL_USERNAME=
+    MAIL_PASSWORD=
+    MAIL_ENCRYPTION=null
+
+    MAIL_FROM_NAME=
+    MAIL_FROM_ADDRESS= 
+
 ### Check the file .env and configure your settings about your database
 
     cd GATK_courses
@@ -65,6 +76,8 @@ Create an .env file in the root of the project or use the .env-getting-started a
 ### To generate the app key
 
     php artisan key:generate
+
+Create the MySQL database Schema with the name GATK_Workshop19, like in your dotenv file.
 
 ### To create the tables of the db
 
