@@ -1,10 +1,18 @@
+---
+title: GATK2019
+layout: default
+permalink: /GATK_courses
+---
+
+The 2019 community meeting is hosted by the <a href="http://www.clinbioinfosspa.es/">Clinical Bioinformatics Area, FPS, Hospital Virgen del Rocio</a>.
+
 # GATK courses application form
 
-Web application made with Laravel, incorporates a form with a list of fields about the courses of GATK for the inscription about the student.
+Web application made with Laravel, incorporates a form with a list of fields about the courses of GATK for the inscription about the attendant.
 
 ![screenshot](http://clinbioinfosspa.es/files/image/gatk.png)
 
-This app save the form data in a database.
+This app save the form data in a MySQL database, send emails and notify the user, and checks in the db.
 
 `This is running Laravel version 5.6.`
 
@@ -66,7 +74,7 @@ Create an .env file in the root of the project or use the .env-getting-started a
     MAIL_ENCRYPTION=null
 
     MAIL_FROM_NAME=
-    MAIL_FROM_ADDRESS= 
+    MAIL_FROM_ADDRESS=
 
 ### Check the file .env and configure your settings about your database
 

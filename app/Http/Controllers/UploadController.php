@@ -47,7 +47,6 @@ class UploadController extends Controller
                 // dd('Duplicate Entry');
                 return view('duplicate'); 
             }
-
             if($errorCode != '1062'){
                 // bd error
                 return view('unknownerror'); 
@@ -58,7 +57,6 @@ class UploadController extends Controller
         if(GATK::where('email', $email)->get())
         {   
             return view('success');
-            
         } 
     }
 }
