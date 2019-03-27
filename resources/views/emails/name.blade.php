@@ -1,5 +1,5 @@
 <div>
-    <p>Dear {{ $name }},</p>
+    <p>Dear <b>{{ $name }},</b></p>
     
     <p>Thank you for submitting your registration to attend the GATK Workshop 2018 in Seville, Spain. Your registration has now been saved in our database.</p>
     
