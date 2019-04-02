@@ -13,7 +13,7 @@
                 enctype="multipart/form-data">
                 {{ csrf_field() }}
 
-                <h2>Application for GATK Workshop</h2>
+                <h2><i class="far fa-calendar-alt" style="color:#2f88c3"></i> Application for GATK Workshop</h2>
                 <h5>2019-10-21 - 2019-10-24, Seville, Spain.</h5>
 
                 <br>
@@ -22,10 +22,10 @@
                             src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" alt="logoBroad"
                             class="img-responsive" style="width:150px;"></a>
                     <a href="https://software.broadinstitute.org/gatk/" target="_blank"><img
-                            src="https://cloud.google.com/genomics/resources/gatk-logo.png" alt="logoGATK"
+                            src="http://www.clinbioinfosspa.es/files/image/logoGATK1.png" alt="logoGATK"
                             class="img-responsive" style="width:150px;"></a>
                     <a href="https://www.broadinstitute.org/"><img
-                            src="https://www.broadinstitute.org/sites/all/themes/custom/at_broad/logo.png"
+                            src="http://www.clinbioinfosspa.es/files/image/logoGATK.png"
                             alt="logoBroad" class="img-responsive" style="width:200px;"></a>
                 </div>
 
@@ -33,7 +33,7 @@
                 <br>
 
                 <h4>Please answer the following application questions:</h4>
-                <p>* All the fields are required.</p>
+                <p><b>* All the fields are required.</b></p>
                 <br>
 
                 <div class="form-group has-feedback">
