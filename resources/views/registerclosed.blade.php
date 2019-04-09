@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>No vacancies</title>
+    <title>GATK Workshop 2019 - Register Closed</title>
     <meta charset="utf-8" />
 
     <!-- Bootstrap-->
@@ -42,8 +42,8 @@
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUVSURBVGhD1ZpVqC5VGIa3gRggKrYgthfGEePCQEWxLixUDrYHERW9sVExsQvFwEK9UNEbsQ4H7MBCbOxCTCywO55ncDbfv86a+mv/vvCwYc+sNd+aFV/MPzVkrQg7wtFwAVwHt/z39xI4EfaAtWCitABsAVfBm/BPBz6DW2F3WARmRIvBUfAe5IzsyjfgDC4PY9GCcBh8ATmDBuVncEBLwMi0NjwNOQPkL3gZroDDYXvYBGy3MWwFB8F58Dj8Brl+5CPYAYau/eB7yD30dTgGVoAuWhz2h4cg168v5lxYCIai0yD3oFfAjeqGH1TO3P2Qe87dsCgMpMsg7fgXOBYWhmFrV/gE0mc+Bs5gXzoF0g7fgg1hlFoOHoD02fdA52W2L6QdPQvLwDikwTdCaoP+qrXWhXRjO4iRHokZufeugWiH7A2NsnF6xLqcnO6ZkDPjkor26Dwb7dHZxUY6qFHviSYtCe9CtOsmqJRhx+cQG3g6TYI2B/1KadffsAFkZewUB6GfGMUR269ugGjf7TCf3Bvp9O0Gk6SV4Vco7fsTVoEebQlxEIYdw/DYw5Z5TbTzBOiR53O8wdipSW7CK0FPbG5hAtU2DDf/OAvehy/BMGRNaNJmEO18EXr0BpQX3VRmenUy9nHWYqdi1Lo01MmZzsVVP4CRcpPehrKNti4LhVaC2KGheJNOhtgmcinUaU/ItZP7oEnp6pl2kObY8YL5RJPmQmwTeR7qlAtES76DJml4bHM2FLJQEC8cAU26A2KbyCNQJx+cayfutyatD7GNthS6EOKF7aBJhtuxTWQO1Gk9qMoOtaVJHhSxzVNQKA3MTEvbyPKOHja2vRnaHNtHwu8Q2zqTbROon6Bs96r/UJZkYodOXVttA27uy2Fn/9FBhhjng5vXVNrCRlt9BaW9npSFUiczCyZdHgqlvbqOQr7ROBDf8iTL0D7a+xwUOgnihQNhkrU6RHvvhUIGh/GCdadJ1i4Q7b0ICq0D8YLFs0mWta5ob89x/ymUFwyVB8nPPUI3hUPgeNABunzNPreFpWAQWT+IA3GpTes2iBcPgC7SSVkONRi07hX7SjHQsy7gILtWZVaD6Ls+hB75zSI+zLpSG5lBGuLEGe3Cj+Cp2XaWTofYfnp/lPKNfg3xJsuYdTLUeAnK+/XUvmmr6c7O1mAf5hkbgXn3bDgV5kEsOVkrsPxaJ5d7dISSLYxoQLzJZVIlI1DzB/eTy9LKedd95WyaKF0MlnhcMudAVYiTpg5PQlZW0y3/xJsNDlNZQff7iCXVrhX4KlnBORRM1sw608GsCr64aNtOUCljn3izYXUshvnN42poygL7lbN0HMQylJ78QYh2WdSulcvDICw2cj3bmUHdGjAOWTFxltQZEO1xL7YKbF3vaXhuYDkTVZWDIbXFgbVW6j3FvMWZGZd0qNauog0PQycbvDktHstdYBlolHIJ+9bTmbCA2Fcx3S9Ej0LsTN4BfcIo5OmUbmz5GNrUvSrlYCzRpB0bZlwP85Us+5SHjH4iPWLFOpahycDySPRsTx8gOsRrwSCxH2mgy8hqY65/8/ihf5vZB76F3APFJeeAvc/wJf1ZhvvO49t8Qg9uFJvug5I/4EwY2eFiedKPLFUGpFjtcPAxx27CfemLGIusgBhjpcfjIDwBtWHHKKUH9qdLL0DbWYp8AAaNlV+fZkIuu73AjPBOeAZeAz8d+BMoa8J+PjCHMD0dV7jzf9LU1L/pYKGF9RvS6AAAAABJRU5ErkJggg==">
                     </h1>
                     <h2>Inscriptions are closed right now.</h2>
-                    <div class="error-details">You have been added to waiting list. We will send you an email to the
-                        provided adress as soon as we have vacancies again.</div>
+                    <img class="img-responsive" src="http://www.clinbioinfosspa.es/files/image/news/gatk2019.png" alt="">
+                    <div class="error-details"><i>Sorry, the inscriptions are closed for now, we will announce the registration period later, both on our <a href="http://www.clinbioinfosspa.es/content/courses">website</a>, <a href="http://courseswiki.clinbioinfosspa.es/gatk2019/start">wiki</a>, or <a href="https://twitter.com/ClinicalBioinfo">social networks.</a></i></div>
                     <div class="error-actions">
                         <a href="http://courseswiki.clinbioinfosspa.es/gatk2019/start" class="btn btn-primary btn-lg"><i
                                 class="fas fa-home"></i> Course Wiki</a><a

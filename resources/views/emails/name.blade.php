@@ -22,7 +22,7 @@
     <p>BIC/SWIFT: BBVAESMMXXX</p>
     <p>Bank: BBVA</p>
 
-    <p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop" IN YOUR PAYMENT REFERENCE.</p>
+    <p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p>
     <br>
     <p>Please note that this is NOT a confirmation of payment or payment receipt!  After a payment has been registered in our system you will receive a separate email confirming your payment.</p>
     

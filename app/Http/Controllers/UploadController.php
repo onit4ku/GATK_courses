@@ -21,7 +21,7 @@ class UploadController extends Controller
         try {
             //recoger los datos y crear en la bd
             $request_fields = $request->all();
-            // Si los registros que no hay en lista de espera es igual a 30 o mayor, añadiremos al usuario a lista de espera y le avisamos con una nueva view
+            // Si los registros que no hay en lista de espera son iguales a 30 o mas, añadiremos al usuario a lista de espera y le avisamos con una nueva view
             $limitedRegister = env('APP_WAITING_LIST_LIMITED', 30);
             if (GATK::where("waitingList", '<>', true)->count() >= $limitedRegister) {
                 $request_fields["waitingList"] = true;
