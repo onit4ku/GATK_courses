@@ -24,15 +24,15 @@ class UploadRequest extends FormRequest
     public function rules()
     {
         $rules = [
-        'commandLine' => 'required',
-        'GATKfamiliar' => 'required',
-        'analyzeData'=> 'required',
-        'researchInterests'=> 'required', 
-        'institution'=> 'required', 
-        'position'=> 'required', 
-        'fullName'=> 'required',
-        'inputDinner'=> 'required',
-        'email'=> 'required'];
+            'commandLine' => 'required',
+            'GATKfamiliar' => 'required',
+            'analyzeData' => 'required',
+            'researchInterests' => 'required',
+            'institution' => 'required',
+            'position' => 'required',
+            'fullName' => 'required',
+            'inputDinner' => 'required',
+            'email' => 'required'];
         return $rules;
     }
 }

@@ -5,12 +5,11 @@ namespace App\Mail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 class SendCopy extends Mailable
 {
     use Queueable, SerializesModels;
-    public $name,  $email, $institution, $position, $gala ;
+    public $name, $email, $institution, $position, $gala;
 
     /**
      * Create a new message instance.

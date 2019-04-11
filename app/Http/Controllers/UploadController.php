@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\UploadRequest;
 use App\GATK;
-
-use Illuminate\Support\Facades\Mail;
-use App\Mail\SendMailable;
+use App\Http\Requests\UploadRequest;
 use App\Mail\SendCopy;
+use App\Mail\SendMailable;
+use Illuminate\Support\Facades\Mail;
 
 class UploadController extends Controller
 {
@@ -40,23 +39,22 @@ class UploadController extends Controller
 
             Mail::to($email)->send(new SendMailable($name["fullName"]));
             Mail::to($copy)->send(new SendCopy($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"]));
-         
-        } catch(\Illuminate\Database\QueryException $e){
+
+        } catch (\Illuminate\Database\QueryException $e) {
             $errorCode = $e->errorInfo[1];
-            if($errorCode == '1062'){
+            if ($errorCode == '1062') {
                 // dd('Duplicate Entry');
-                return view('duplicate'); 
+                return view('duplicate');
             }
-            if($errorCode != '1062'){
+            if ($errorCode != '1062') {
                 // bd error
-                return view('unknownerror'); 
+                return view('unknownerror');
             }
-        }      
+        }
 
         $email = $request->all(['email']);
-        if(GATK::where('email', $email)->get())
-        {   
+        if (GATK::where('email', $email)->get()) {
             return view('success');
-        } 
+        }
     }
 }

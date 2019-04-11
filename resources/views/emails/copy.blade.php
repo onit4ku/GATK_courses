@@ -1,13 +1,12 @@
 <?php
 
-  $result = "";
-  if ($gala == "withDinner") {
+$result = "";
+if ($gala == "withDinner") {
     $result = "con gala";
-  } 
-  else{
+} else {
     $result = "sin gala";
-  }
-  
+}
+
 ?>
 
 <div>
