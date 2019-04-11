@@ -87,6 +87,15 @@
                 </div>
 
                 <div class="form-group has-feedback">
+                    <label for="fullName" class="control-label">Full Name:</label>
+                    <input type="text" maxlength="190" class="form-control" id="fullName" name="fullName"
+                        aria-describedby="inputInstitution" placeholder="Enter your full name."
+                        data-error="Please type you full name." required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group has-feedback">
                     <label for="institution" class="control-label">Institution / Group:</label>
                     <input type="text" maxlength="190" class="form-control" id="institution" name="institution"
                         aria-describedby="institution" placeholder="Enter your group name."
@@ -103,16 +112,7 @@
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
                 </div>
-
-                <div class="form-group has-feedback">
-                    <label for="fullName" class="control-label">Full Name:</label>
-                    <input type="text" maxlength="190" class="form-control" id="fullName" name="fullName"
-                        aria-describedby="inputInstitution" placeholder="Enter your full name."
-                        data-error="Please type you full name." required>
-                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                    <div class="help-block with-errors"></div>
-                </div>
-
+                
                 <div class="form-group has-feedback">
                     <label for="inputDinner" class="control-label">Course registration:</label>
                     <div class="radio">
