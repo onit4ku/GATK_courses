@@ -1,7 +1,7 @@
 <div>
     <p>Dear <b>{{ $name }},</b></p>
 
-    <p>Thank you for submitting your registration to attend the GATK Workshop 2019 in Seville, Spain. Your registration has now been saved in our database.</p>
+    <p>Thank you for submitting your pre-registration to attend the GATK Workshop 2019 in Seville, Spain. Your pre-registration has now been saved in our database.</p>
 
     <p>Please, in order to prepare an invoice we need you to provide us with your <b>tax information: </b></p>
 
@@ -11,8 +11,9 @@
     <p>Organization, institution.</p>
     <p>Billing Address</p>
    </b>
-    <p>Should you need an invoice, please inform us of the correct invoicing address, (if different from the address above and the VAT number if applicable, that information needs to be received within 24 hours). Invoices will become available online two weeks upon receipt of remittance. </p>
-    <p>And finally, you need to make the deposit and send the proof of income to the email address:
+   <p>In order to address the invoice <b> to your institution</b>, please indicate the detailed information for your billing, otherwise we will address the invoice to you.</p>
+    <!-- <p>Should you need an invoice, please inform us of the correct invoicing address, (if different from the address above and the VAT number if applicable, that information needs to be received within 24 hours). Invoices will become available online two weeks upon receipt of remittance. </p> -->
+    <p>Finally, you need to make the deposit and send the proof of income to the following email:
     <br>
     <b>secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es</b></i></p>
     <br>
@@ -26,7 +27,7 @@
 
     <p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p>
     <br>
-    <p>Please note that this is NOT a confirmation of payment or payment receipt!  After a payment has been registered in our system you will receive a separate email confirming your payment.</p>
+    <p>Once the payment has been registered in our system you will receive a confirmation email.</p>
 
   <p>Best regards, <br> Clinical Bioinformatics Area team.</p>
 </div>
