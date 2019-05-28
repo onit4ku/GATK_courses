@@ -1,11 +1,11 @@
 <?php
 $result = "";
 if ($gala == "withDinner") {
-    $result = "con cena de gala (150€)";
+    $result = "Curso con cena (150€)";
 } else if ($gala == "onlyEvent") {
-    $result = "sin cena de gala (100€)";
+    $result = "Curso sin cena (100€)";
 } else if ($gala == "eventPlusVisit") {
-    $result = "evento con cena, mas visita guiada a la Alhambra (200€)";
+    $result = "Curso con cena, mas visita nocturna guiada a la Alhambra (200€)";
 }
 ?>
 

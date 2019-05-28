@@ -120,11 +120,10 @@
                             <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (100€)
                         </label>
                         <label>
-                            <input type="radio" name="inputDinner" value="withDinner" required> Course and networking
-                            dinner (150€)
+                            <input type="radio" name="inputDinner" value="withDinner" required> Course + networking dinner (150€)
                         </label>
                         <label>
-                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> All previous plus Alhambra guided tour (200€)
+                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course + networking dinner + guided evening visit to the Alhambra (200€)
                         </label>
                     </div>
                 </div>
