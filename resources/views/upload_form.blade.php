@@ -14,7 +14,7 @@
                 {{ csrf_field() }}
 
                 <h2><i class="far fa-calendar-alt" style="color:#2f88c3"></i> Application for GATK Workshop</h2>
-                <h5>2019-10-21 - 2019-10-24, Seville, Spain.</h5>
+                <h5>2019-10-21 - 2019-10-24, Granada, Spain.</h5>
 
                 <br>
                 <div class="logoGATK">
@@ -112,16 +112,19 @@
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
                 </div>
-                
+
                 <div class="form-group has-feedback">
                     <label for="inputDinner" class="control-label">Course registration:</label>
                     <div class="radio">
+                        <label>
+                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (100€)
+                        </label>
                         <label>
                             <input type="radio" name="inputDinner" value="withDinner" required> Course and networking
                             dinner (150€)
                         </label>
                         <label>
-                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (100€)
+                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> All previous plus Alhambra guided tour (200€)
                         </label>
                     </div>
                 </div>

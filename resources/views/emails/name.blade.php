@@ -1,7 +1,7 @@
 <div>
     <p>Dear <b>{{ $name }},</b></p>
 
-    <p>Thank you for submitting your pre-registration to attend the GATK Workshop 2019 in Seville, Spain. Your pre-registration has now been saved in our database.</p>
+    <p>Thank you for submitting your pre-registration to attend the GATK Workshop 2019 in Granada, Spain. Your pre-registration has now been saved in our database.</p>
 
     <p>Please, in order to prepare an invoice we need you to provide us with your <b>tax information: </b></p>
 
