@@ -32,6 +32,6 @@ class SendCopy extends Mailable
      */
     public function build()
     {
-        return $this->from('cursogatk2019@clinbioinfosspa.es')->subject('(GATK) Nuevo inscrito')->view('emails.copy');
+        return $this->from('cursogatk2019@clinbioinfosspa.es')->subject('(GATK2019) Nuevo inscrito')->view('emails.copy');
     }
 }

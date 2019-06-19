@@ -20,14 +20,14 @@ class UploadController extends Controller
         try {
             //recoger los datos y crear en la bd
             $request_fields = $request->all();
-            // Si los registros que no hay en lista de espera son iguales a 30 o mas, añadiremos al usuario a lista de espera y le avisamos con una nueva view
-            $limitedRegister = env('APP_WAITING_LIST_LIMITED', 30);
+            // Si los registros que no hay en lista de espera son iguales a 40 o mas, añadiremos al usuario a lista de espera y le avisamos con una nueva view
+            $limitedRegister = env('APP_WAITING_LIST_LIMITED', 40);
             if (GATK::where("waitingList", '<>', true)->count() >= $limitedRegister) {
                 $request_fields["waitingList"] = true;
                 $GATKcourses = GATK::create($request_fields);
                 return view('waitinglist');
             }
-            // En otro caso creamos el registro hasta alcanzar el número de registros 30
+            // En otro caso creamos el registro hasta alcanzar el número de registros 40
             $GATKcourses = GATK::create($request_fields);
             //mail
             $name = $request->all(['fullName']);
