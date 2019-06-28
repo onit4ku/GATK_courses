@@ -37,7 +37,7 @@ class UploadController extends Controller
             $gala = $request->all(['inputDinner']);
             $copy = "secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es";
 
-            Mail::to($email)->send(new SendMailable($name["fullName"]));
+            Mail::to($email)->send(new SendMailable($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"]));
             Mail::to($copy)->send(new SendCopy($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"]));
 
         } catch (\Illuminate\Database\QueryException $e) {

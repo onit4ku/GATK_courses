@@ -114,31 +114,38 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="inputDinner" class="control-label">Workshop plan registration:</label>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course / 180€
-                        </label>
-                        <span><i>It includes course, coffee breaks and lunch 5 days</i></span>
-                        <label>
-                        <br/>
-                            <input type="radio" name="inputDinner" value="withDinner" required> Course + networking dinner / 223€ (+43€ above the base fee)
-                        </label>
-                        <br/>
-                        <label>
-                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course + networking dinner + guided evening visit to the Alhambra / 253€ (+30 above the base fee)
-                        </label>
-                        <span><i>Guided tour of the Alhambra plus transportation to the venue (optional). <br/> The visit will be on tuesday, October 22, with an extra cost of 30 euros</i></span>
-                    </div>
-                </div>
-
-                <div class="form-group has-feedback">
                     <label for="email" class="control-label">Email:</label>
                     <input type="email" maxlength="190" class="form-control" id="email"
                         placeholder="Enter your email address." name="email" data-error="That email address is invalid."
                         required>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group has-feedback">
+                    <label for="inputDinner" class="control-label">Workshop plan registration:</label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course, 180€.
+                        </label>
+                        <span><i>It includes course, coffee breaks and lunch 5 days</i></span>
+                        <label>
+                        <br/>
+                            <input type="radio" name="inputDinner" value="withDinner" required> Course + networking dinner, 223€. (+43€ above the base fee).
+                        </label>
+                        <br/>
+                        <label>
+                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course + networking dinner + reservation to the guided visit of the Alhambra, 223€. (+43€ above the base fee for the dinner, <strong>the visit to the alhambra must be paid in the spot</strong>, with an additional cost of 30€).
+                        </label>
+                        <label>
+                        <br/>
+
+                            <input type="radio" name="inputDinner" value="eventPlusVisitMinusDinner" required> Course + reservation to the guided visit of theAlhambra, without the networking dinner. 180€ (<strong>The visit to the alhambra must be paid in the spot</strong>, with an additional cost of 30€).
+                        </label>
+                        <br/>
+                        <span><i>Guided tour of the Alhambra plus transportation to the venue: <br/> The visit will be on tuesday, October 22, <strong>with an extra cost of 30 euros.</strong></i></span><br/>
+                        <span><strong>This is only a reservation, <i>for the payment of the visit must be made on the spot.</strong></i></span>
+                    </div>
                 </div>
 
                 @include ('layouts.errors')

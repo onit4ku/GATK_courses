@@ -11,12 +11,12 @@ class GATK extends Model
         'commandLine',
         'GATKfamiliar',
         'analyzeData',
-        'inputBenefit', 
-        'researchInterests', 
-        'institution', 
-        'position', 
+        'inputBenefit',
+        'researchInterests',
+        'institution',
+        'position',
         'fullName',
         'inputDinner',
         'email',
-        'waitingList'    ];
+        'waitingList'];
 }
