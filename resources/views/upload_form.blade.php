@@ -114,17 +114,21 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="inputDinner" class="control-label">Course registration:</label>
+                    <label for="inputDinner" class="control-label">Workshop plan registration:</label>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (180€)
+                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course / 180€
                         </label>
+                        <span><i>It includes course, coffee breaks and lunch 5 days</i></span>
                         <label>
-                            <input type="radio" name="inputDinner" value="withDinner" required> Course + networking dinner (223€)
+                        <br/>
+                            <input type="radio" name="inputDinner" value="withDinner" required> Course + networking dinner / 223€ (+43€ above the base fee)
                         </label>
+                        <br/>
                         <label>
-                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course + networking dinner + guided evening visit to the Alhambra (254€)
+                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course + networking dinner + guided evening visit to the Alhambra / 253€ (+30 above the base fee)
                         </label>
+                        <span><i>Guided tour of the Alhambra plus transportation to the venue (optional). <br/> The visit will be on tuesday, October 22, with an extra cost of 30 euros</i></span>
                     </div>
                 </div>
 

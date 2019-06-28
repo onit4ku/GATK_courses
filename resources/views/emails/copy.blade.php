@@ -5,7 +5,7 @@ if ($gala == "withDinner") {
 } else if ($gala == "onlyEvent") {
     $result = "Curso sin cena (180€)";
 } else if ($gala == "eventPlusVisit") {
-    $result = "Curso con cena, mas visita nocturna guiada a la Alhambra (254€)";
+    $result = "Curso con cena, mas visita nocturna guiada a la Alhambra (253€)";
 }
 ?>
 
