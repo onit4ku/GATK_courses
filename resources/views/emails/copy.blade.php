@@ -30,10 +30,10 @@ if ($gala == "withDinner") {
 			<p>Posición: <b>{{ $institution }}</b>.</p>
 			<p>Tipo de plan: <b>{{ $result }}</b>.</p>
 		</div><br>
-		<p>Saludos,</p>
-		<div style="padding: 4px;background-color: #b9b9b9;color: white;/* margin-left: 0; */">
-			<p style="margin: 20px;"><b>Rubén García Serrano<br>
-			Clinical Bioinformatics Area team.</b></p><a href="http://www.clinbioinfosspa.es"><img alt="cba logo" src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" style=" height: 100px;"></a>
+		<p style="/* margin: 20px; */"><b>Saludos,<br>
+		Rubén.</b></p>
+		<div style="padding: 20px;background-color: #b9b9b9;color: white;align-items: center;">
+			<a href="http://www.clinbioinfosspa.es" rel="noopener noreferrer" target="_blank"><img alt="cba logo" src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" style="height: 75px;"></a> <a href="https://software.broadinstitute.org/gatk/" rel="noopener noreferrer" target="_blank"><img alt="gatk logo" src="http://www.clinbioinfosspa.es/files/image/logoGATK1.png" style="height: 75px;"></a><a href="https://www.broadinstitute.org/" rel="noopener noreferrer" target="_blank"><img alt="broad logo" src="http://www.clinbioinfosspa.es/files/image/logoGATK.png" style="height: 70px;"></a>
 		</div>
 	</div>
 </body>

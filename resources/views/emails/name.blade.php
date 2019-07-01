@@ -34,10 +34,10 @@ if ($gala == "withDinner") {
 		<b>secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es</b></p><br>
 		<p><i>You have chosen the following reservation in your registration:</i></p>
 		<ul>
-			<li>Full name: {{ $name }}.</li>
-			<li>Position: {{ $institution }}.</li>
-			<li>Organization, institution: {{ $position }}.</li>
-			<li>Reservation plan: {{ $result }}.</li>
+			<li><b>Full name:</b> {{ $name }}.</li>
+			<li><b>Position:</b> {{ $institution }}.</li>
+			<li><b>Organization, institution:</b> {{ $position }}.</li>
+			<li><b>Reservation plan:</b> {{ $result }}.</li>
 		</ul>
 		<p>If you have checked the box of the reservation of the visit to the Alhambra, you should keep in mind that it is <b>only a reservation.</b></p>
 		<p>The visit of the Alhambra <b>must be paid in the location of the course</b>, it's not possible to include the fee in the transference.</p><br>
@@ -51,10 +51,11 @@ if ($gala == "withDinner") {
 			<p><b>Bank:</b> BBVA</p>
 			<p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p>
 		</div><br>
-		<p>Once the payment has been registered in our system you will receive a confirmation email.</p>
-		<div style="padding: 4px;background-color: #b9b9b9;color: white;/* margin-left: 0; */">
-			<p style="margin: 20px;"><b>Best regards,<br>
-			Clinical Bioinformatics Area team.</b></p><a href="http://www.clinbioinfosspa.es"><img alt="cba logo" src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" style=" height: 100px;"></a>
+		<p>Once the payment has been registered in our system you will receive a confirmation email.</p><br>
+		<p style="/* margin: 20px; */"><b>Best regards,<br>
+		Clinical Bioinformatics Area team.</b></p>
+		<div style="padding: 20px;background-color: #b9b9b9;color: white;align-items: center;">
+			<a href="http://www.clinbioinfosspa.es" rel="noopener noreferrer" target="_blank"><img alt="cba logo" src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" style="height: 75px;"></a> <a href="https://software.broadinstitute.org/gatk/" rel="noopener noreferrer" target="_blank"><img alt="gatk logo" src="http://www.clinbioinfosspa.es/files/image/logoGATK1.png" style="height: 75px;"></a><a href="https://www.broadinstitute.org/" rel="noopener noreferrer" target="_blank"><img alt="broad logo" src="http://www.clinbioinfosspa.es/files/image/logoGATK.png" style="height: 70px;"></a>
 		</div>
 	</div>
 </body>
