@@ -2,12 +2,8 @@
 $result = "";
 if ($gala == "withDinner") {
     $result = "Curso con cena (223€)";
-} else if ($gala == "onlyEvent") {
+} else {
     $result = "Curso sin cena (180€)";
-} else if ($gala == "eventPlusVisit") {
-    $result = "Curso con cena (223€), con reserva a la visita guiada de la Alhambra.";
-} else if ($gala == "eventPlusVisitMinusDinner") {
-    $result = "Curso sin cena (180€), con reserva a la visita guiada de la Alhambra";
 }
 ?>
 
@@ -30,7 +26,8 @@ if ($gala == "withDinner") {
 			<p>Institución de la que procede: <b>{{ $position }}</b>.</p>
 			<p>Posición: <b>{{ $institution }}</b>.</p>
 			<p>Tipo de plan: <b>{{ $result }}</b>.</p>
-			<p>Dietas especiales: <b>{{ $dietary }}</b>.</p>
+			<p>Dietas especiales: <b>{{ $alhambra }}</b>.</p>
+			<p>Reserva de la visita guiada: <b>{{ $dietary }}</b>.</p>
 		</div><br>
 		<p style="/* margin: 20px; */"><b>Saludos,<br>
 		Rubén.</b></p>

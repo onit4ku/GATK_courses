@@ -33,6 +33,7 @@ class UploadRequest extends FormRequest
             'dietaryReq' => 'required',
             'fullName' => 'required',
             'inputDinner' => 'required',
+            'inputAlhambra' => 'required',
             'email' => 'required'];
         return $rules;
     }

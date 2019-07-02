@@ -126,24 +126,14 @@
                     <label for="inputDinner" class="control-label">* Workshop plan registration:</label>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (180€).
+                            <input type="radio" name="inputDinner" value="onlyEvent" required> <b>Only course (180€).</b>
                         </label>
-                        <span><i>It includes course, coffee breaks and lunch 5 days</i></span>
+                        <span><i>It includes coffee breaks and lunch 5 days</i></span>
                         <label>
                         <br/>
-                            <input type="radio" name="inputDinner" value="withDinner" required> Course (180€) + networking dinner (43€): <b>Total 223€</b>.
+                            <input type="radio" name="inputDinner" value="withDinner" required><b>Course (180€) + networking dinner (43€): Total 223€</b>.
                         </label>
                         <br/>
-                        <label>
-                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course (180€) + networking dinner (43€) + guided tour of the Alhambra (30€): <b>Total 253€</b>.
-                        </label>
-                        <label>
-                        <br/>
-
-                            <input type="radio" name="inputDinner" value="eventPlusVisitMinusDinner" required> Course (180€) + guided tour of the Alhambra (30€): <b>Total 210€</b>.
-                        </label>
-                        <br/>
-                        <span><i>Guided tour of the Alhambra plus transportation to the venue will be on tuesday,<b> October 22</b>.</i></span><br/>
                     </div>
                 </div>
 
@@ -156,6 +146,26 @@
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <span id='remainingC'></span>
                     <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group has-feedback">
+                    <label for="inputAlhambra" class="control-label">* Reservation of the Alhambra guided tour:</label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="inputAlhambra" value="yes" required> Yes
+                        </label>
+                        <span><i></i></span>
+                        <label>
+                        <br/>
+                            <input type="radio" name="inputAlhambra" value="no" required> No
+                        </label>
+                        <br/>
+                        <span><i>Guided tour of the Alhambra plus transportation to the venue will be on tuesday,<b> October 22</b>.</i></span><br/>
+                        <br/>                        
+                        <span><i>The cost of the guided tour <b>will cost approximately 30€</b>, which will be paid <b>at the place of the course</b>.</i></span><br/>
+                        <br/>                        
+                        <span style="color:blue;"><b>NOTE:</b> A minimun number of people will be required in order to book the Alhambra tour.</span>
+                    </div>
                 </div>
 
                 @include ('layouts.errors')

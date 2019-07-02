@@ -25,6 +25,7 @@ class CreateGatkcoursesTable extends Migration
             $table->string('fullName');
             $table->string('email')->unique();
             $table->string('inputDinner');
+            $table->string('inputAlhambra');
             $table->string('dietaryReq');
             $table->boolean('payment')->default(false);
             $table->boolean('waitingList')->default(false);

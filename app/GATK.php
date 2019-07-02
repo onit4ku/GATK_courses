@@ -18,6 +18,7 @@ class GATK extends Model
         'fullName',
         'email',
         'inputDinner',
+        'inputAlhambra',
         'dietaryReq',
         'waitingList'
     ];

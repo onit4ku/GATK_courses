@@ -2,12 +2,8 @@
 $result = "";
 if ($gala == "withDinner") {
     $result = "Workshop with dinner (223€)";
-} else if ($gala == "onlyEvent") {
+} else {
     $result = "Workshop without dinner (180€)";
-} else if ($gala == "eventPlusVisit") {
-    $result = "Workshop with dinner (223€), with reservation to the guided tour of the Alhambra";
-} else if ($gala == "eventPlusVisitMinusDinner") {
-    $result = "Workshop without dinner (180€), with reservation to the guided tour of the Alhambra";
 }
 ?>
 <!DOCTYPE html>
@@ -146,7 +142,7 @@ if ($gala == "withDinner") {
 					</tr>
 					<tr>
 						<td class="innerpadding bodycopy" style="padding: 30px 30px 30px 30px; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 22px;">
-							In order to address the invoice <b>to your institution</b>, please indicate the detailed information for your billing, otherwise we will address the invoice to you.<br>
+							Please, in order to issue the invoice we need you to provide us with the tax information of the one finally paying (institution on behalf of the attendee or the attendee himself/herself):<br>
 							<br>
 							Finally, you need to make the deposit and send the proof of income to the following email:<br>
 							<b>secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es</b>
@@ -157,7 +153,8 @@ if ($gala == "withDinner") {
 								<li><b>Position:</b> {{ $institution }}.</li>
 								<li><b>Organization, institution:</b> {{ $position }}.</li>
 								<li><b>Reservation plan:</b> {{ $result }}.</li>
-								<li><b>Dietary requirements:</b> {{ $dietary }}.</li>
+								<li><b>Dietary requirements:</b> {{ $alhambra }}.</li>
+								<li><b>Guided tour reservation:</b> {{ $dietary }}.</li>
 							</ul>
 							<p>If you have checked the box of the reservation of the visit to the Alhambra, you should keep in mind that it is <b>only a reservation.</b></p>
 							<p>The visit of the Alhambra <b>must be paid in the location of the course, with a cost of 30€</b>, it's not possible to include the fee in the transference.</p><br>
