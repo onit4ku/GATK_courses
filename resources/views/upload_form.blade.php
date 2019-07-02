@@ -148,9 +148,9 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="dietaryRequirements" class="control-label">Dietary Requirements:</label>
-                    <textarea rows="4" cols="50" maxlength="190" class="form-control" id="dietaryRequirements"
-                        name="dietaryRequirements" aria-describedby="dietaryRequirements"
+                    <label for="dietaryReq" class="control-label">Dietary Requirements:</label>
+                    <textarea rows="4" cols="50" maxlength="190" class="form-control" id="dietaryReqId"
+                        name="dietaryReq" aria-describedby="dietaryReq"
                         placeholder="Some people have specific dietary requirements, tell us about yours."
                         data-error="Please enter the required information."></textarea>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>

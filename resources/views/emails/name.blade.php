@@ -5,9 +5,9 @@ if ($gala == "withDinner") {
 } else if ($gala == "onlyEvent") {
     $result = "Workshop without dinner (180€)";
 } else if ($gala == "eventPlusVisit") {
-    $result = "Workshop with dinner (223€), with reservation to the guided tour of the Alhambra.";
+    $result = "Workshop with dinner (223€), with reservation to the guided tour of the Alhambra";
 } else if ($gala == "eventPlusVisitMinusDinner") {
-    $result = "Workshop without dinner (180€), with reservation to the guided tour of the Alhambra.";
+    $result = "Workshop without dinner (180€), with reservation to the guided tour of the Alhambra";
 }
 ?>
 <!DOCTYPE html>

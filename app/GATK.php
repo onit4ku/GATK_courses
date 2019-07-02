@@ -16,9 +16,9 @@ class GATK extends Model
         'institution',
         'position',
         'fullName',
-        'inputDinner',
         'email',
-        'waitingList',
-        'dietaryRequirements',
+        'inputDinner',
+        'dietaryReq',
+        'waitingList'
     ];
 }

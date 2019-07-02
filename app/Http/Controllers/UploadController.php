@@ -35,11 +35,11 @@ class UploadController extends Controller
             $position = $request->all(['position']);
             $institution = $request->all(['institution']);
             $gala = $request->all(['inputDinner']);
-            $dietary = $request->all(['dietaryRequirements']);
+            $dietary = $request->all(['dietaryReq']);
             $copy = "secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es";
 
-            Mail::to($email)->send(new SendMailable($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"],$dietary["dietaryRequirements"]));
-            Mail::to($copy)->send(new SendCopy($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"], $dietary["dietaryRequirements"]));
+            Mail::to($email)->send(new SendMailable($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"], $dietary["dietaryReq"]));
+            Mail::to($copy)->send(new SendCopy($name["fullName"], $email["email"], $position["position"], $institution["institution"], $gala["inputDinner"], $dietary["dietaryReq"]));
 
         } catch (\Illuminate\Database\QueryException $e) {
             $errorCode = $e->errorInfo[1];
