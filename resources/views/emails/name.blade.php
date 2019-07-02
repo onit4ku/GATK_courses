@@ -184,10 +184,13 @@ if ($gala == "withDinner") {
 										<table border="0" cellpadding="0" cellspacing="0">
 											<tr>
 												<td style="text-align: center; padding: 0 10px 0 10px;" width="37">
-													<a href="http://www.clinbioinfosspa.es/"><img alt="CBA" border="0" height="37" src="http://clinbioinfosspa.es/files/image/fps-blanco.svg" style="height: auto;" width="37"></a>
+													<a href="https://www.broadinstitute.org/"><img alt="Broad Institute" border="0" height="37" src="http://clinbioinfosspa.es/files/image/broad-icon.png" style="height: auto;" width="37"></a>
 												</td>
 												<td style="text-align: center; padding: 0 10px 0 10px;" width="37">
 													<a href="https://software.broadinstitute.org/gatk/events/"><img alt="Facebook" border="0" height="37" src="https://avatars2.githubusercontent.com/u/32406064" style="height: auto;" width="37"></a>
+												</td>
+												<td style="text-align: center; padding: 0 10px 0 10px;" width="37">
+													<a href="http://www.clinbioinfosspa.es/"><img alt="CBA" border="0" height="37" src="http://clinbioinfosspa.es/files/image/fps-blanco.svg" style="height: auto;" width="37"></a>
 												</td>
 												<td style="text-align: center; padding: 0 10px 0 10px;" width="37">
 													<a href="https://twitter.com/ClinicalBioinfo"><img alt="Twitter" border="0" height="37" src="http://clinbioinfosspa.es/events/gatk/images/twitter.png" style="height: auto;" width="37"></a>
