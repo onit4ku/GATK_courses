@@ -30,7 +30,7 @@ class UploadRequest extends FormRequest
             'researchInterests' => 'required',
             'institution' => 'required',
             'position' => 'required',
-            'dietaryReq',
+            'dietaryReq' => 'required',
             'fullName' => 'required',
             'inputDinner' => 'required',
             'email' => 'required'];

@@ -60,7 +60,7 @@ if ($gala == "withDinner") {
 						<td bgcolor="#1B63C0" class="header" style="padding: 40px 30px 20px 30px;">
 							<table align="left" border="0" cellpadding="0" cellspacing="0" width="70">
 								<tr>
-									<td height="70" style="padding: 0 20px 20px 0;"><img alt="" border="0" class="fix" height="70" src="http://clinbioinfosspa.es/files/image/fps-blanco.svg" style="height: auto;" width="70"></td>
+									<td height="70" style="padding: 0 20px 20px 0;"><img alt="" border="0" class="fix" height="70" src="http://clinbioinfosspa.es/files/image/fps-blanco.png" style="height: auto;" width="70"></td>
 								</tr>
 							</table><!--[if (gte mso 9)|(IE)]>
             <table width="425" align="left" cellpadding="0" cellspacing="0" border="0">
