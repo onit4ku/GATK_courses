@@ -17,6 +17,6 @@ Route::get('/upload', 'UploadController@uploadForm');
 Route::post('/upload', 'UploadController@uploadSubmit');
 
 Route::get('/', function () {
-    return view('registerclosed');
-    // return view('upload_form');
+    // return view('registerclosed');
+    return view('upload_form');
 });
