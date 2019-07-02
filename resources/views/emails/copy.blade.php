@@ -5,11 +5,12 @@ if ($gala == "withDinner") {
 } else if ($gala == "onlyEvent") {
     $result = "Curso sin cena (180€)";
 } else if ($gala == "eventPlusVisit") {
-    $result = "Curso con cena, con reserva a la visita guiada de la Alhambra (223€)";
+    $result = "Curso con cena (223€), con reserva a la visita guiada de la Alhambra.";
 } else if ($gala == "eventPlusVisitMinusDinner") {
-    $result = "Curso sin cena, con reserva a la visita guiada de la Alhambra (223€)";
+    $result = "Curso sin cena (180€), con reserva a la visita guiada de la Alhambra";
 }
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +19,7 @@ if ($gala == "withDinner") {
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 </head>
-<body style=" @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); background-color: #e0e0e0; color: #333; font-family:Lato; img{ -ms-interpolation-mode:bicubic; } body{ -webkit-text-size-adjust:100%; } h2{ color:#0066CC !important; }">
+<body style=" @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); background-color: #e0e0e0; color: #333; font-family:Lato; img{ -ms-interpolation-mode:bicubic; } body{ -webkit-text-size-adjust:100%; } h2{ color:#0066CC !important; } margin: 0; padding: 0; min-width: 100%;">
 	<div style="margin-left: 20px">
 		<p style="font-size:20px;">Registro en el formulario <b>GATK 2019, Granada.</b></p>
 		<p>El usuario con nombre <b>{{ $name }}</b> se ha registrado en el formulario, sus datos de registro son los siguientes:</p><br>
@@ -29,6 +30,7 @@ if ($gala == "withDinner") {
 			<p>Institución de la que procede: <b>{{ $position }}</b>.</p>
 			<p>Posición: <b>{{ $institution }}</b>.</p>
 			<p>Tipo de plan: <b>{{ $result }}</b>.</p>
+			<p>Dietas especiales: <b>{{ $dietary }}</b>.</p>
 		</div><br>
 		<p style="/* margin: 20px; */"><b>Saludos,<br>
 		Rubén.</b></p>

@@ -5,9 +5,9 @@ if ($gala == "withDinner") {
 } else if ($gala == "onlyEvent") {
     $result = "Workshop without dinner (180€)";
 } else if ($gala == "eventPlusVisit") {
-    $result = "Workshop with dinner, with reservation to the guided visit of the Alhambra (223€)";
+    $result = "Workshop with dinner (223€), with reservation to the guided tour of the Alhambra.";
 } else if ($gala == "eventPlusVisitMinusDinner") {
-    $result = "Workshop without dinner, with reservation to the guided visit of the Alhambra (223€)";
+    $result = "Workshop without dinner (180€), with reservation to the guided tour of the Alhambra.";
 }
 ?>
 <!DOCTYPE html>
@@ -157,14 +157,14 @@ if ($gala == "withDinner") {
 								<li><b>Position:</b> {{ $institution }}.</li>
 								<li><b>Organization, institution:</b> {{ $position }}.</li>
 								<li><b>Reservation plan:</b> {{ $result }}.</li>
+								<li><b>Dietary requirements:</b> {{ $dietary }}.</li>
 							</ul>
 							<p>If you have checked the box of the reservation of the visit to the Alhambra, you should keep in mind that it is <b>only a reservation.</b></p>
-							<p>The visit of the Alhambra <b>must be paid in the location of the course</b>, it's not possible to include the fee in the transference.</p><br>
+							<p>The visit of the Alhambra <b>must be paid in the location of the course, with a cost of 30€</b>, it's not possible to include the fee in the transference.</p><br>
 							<h3>Payment via Bank transfer</h3>
 							<h4>Bank Account Details</h4>
-							<h4></h4>
 							<p><b>Account holder:</b> Fundación Progreso y Salud</p>
-							<p><b>IBAN:</b> ES1101825566790011503217</p>
+							<p><b>IBAN:</b> ES11 0182 5566 79 0011503217</p>
 							<p><b>BIC/SWIFT:</b> BBVAESMMXXX</p>
 							<p><b>Bank:</b> BBVA</p>
 							<p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p><br>

@@ -14,7 +14,7 @@ Web application made with Laravel, incorporates a form with a list of fields abo
 
 This app save the form data in a MySQL database, send emails and notify the user, and checks in the db.
 
-`This is running Laravel version 5.6.`
+`This is running Laravel version 5.8.`
 
 ## Server Requirements
 

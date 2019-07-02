@@ -33,11 +33,11 @@
                 <br>
 
                 <h4>Please answer the following application questions:</h4>
-                <p><b>* All the fields are required.</b></p>
+                <p><b>All the fields with a * mark are required.</b></p>
                 <br>
 
                 <div class="form-group has-feedback">
-                    <label for="commandLine" class="control-label">Are you familiar with using the command line in a
+                    <label for="commandLine" class="control-label">* Are you familiar with using the command line in a
                         Unix/Linux environment?</label>
                     <div class="radio">
                         <label>
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="GATKfamiliar" class="control-label">Are you familiar with GATK?</label>
+                    <label for="GATKfamiliar" class="control-label">* Are you familiar with GATK?</label>
 
                     <div class="radio">
                         <label>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="analyzeData" class="control-label">Do you currently have data to analyze?</label>
+                    <label for="analyzeData" class="control-label">* Do you currently have data to analyze?</label>
                     <div class="radio">
                         <label>
                             <input type="radio" name="analyzeData" value="Yes" required> Yes
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="researchInterests" class="control-label">Describe your group's research
+                    <label for="researchInterests" class="control-label">* Describe your group's research
                         interests:</label>
                     <textarea rows="4" cols="50" maxlength="190" class="form-control" id="interestsId"
                         name="researchInterests" aria-describedby="researchInterests"
@@ -87,7 +87,7 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="fullName" class="control-label">Full Name:</label>
+                    <label for="fullName" class="control-label">* Full Name:</label>
                     <input type="text" maxlength="190" class="form-control" id="fullName" name="fullName"
                         aria-describedby="inputInstitution" placeholder="Enter your full name."
                         data-error="Please type you full name." required>
@@ -96,25 +96,7 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="institution" class="control-label">Institution / Group:</label>
-                    <input type="text" maxlength="190" class="form-control" id="institution" name="institution"
-                        aria-describedby="institution" placeholder="Enter your group name."
-                        data-error="Please enter your group name." required>
-                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                    <div class="help-block with-errors"></div>
-                </div>
-
-                <div class="form-group has-feedback">
-                    <label for="position" class="control-label">Position:</label>
-                    <input type="text" maxlength="190" class="form-control" id="position" name="position"
-                        aria-describedby="position" placeholder="Enter your position."
-                        data-error="Please enter your position." required>
-                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                    <div class="help-block with-errors"></div>
-                </div>
-
-                <div class="form-group has-feedback">
-                    <label for="email" class="control-label">Email:</label>
+                    <label for="email" class="control-label">* Email:</label>
                     <input type="email" maxlength="190" class="form-control" id="email"
                         placeholder="Enter your email address." name="email" data-error="That email address is invalid."
                         required>
@@ -123,33 +105,63 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="inputDinner" class="control-label">Workshop plan registration:</label>
+                    <label for="institution" class="control-label">* Institution / Group:</label>
+                    <input type="text" maxlength="190" class="form-control" id="institution" name="institution"
+                        aria-describedby="institution" placeholder="Enter your group name."
+                        data-error="Please enter your group name." required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group has-feedback">
+                    <label for="position" class="control-label">* Position:</label>
+                    <input type="text" maxlength="190" class="form-control" id="position" name="position"
+                        aria-describedby="position" placeholder="Enter your position."
+                        data-error="Please enter your position." required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group has-feedback">
+                    <label for="inputDinner" class="control-label">* Workshop plan registration:</label>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course, 180€.
+                            <input type="radio" name="inputDinner" value="onlyEvent" required> Only course (180€).
                         </label>
                         <span><i>It includes course, coffee breaks and lunch 5 days</i></span>
                         <label>
                         <br/>
-                            <input type="radio" name="inputDinner" value="withDinner" required> Course + networking dinner, 223€. (+43€ above the base fee).
+                            <input type="radio" name="inputDinner" value="withDinner" required> Course (180€) + networking dinner (43€): <b>Total 223€</b>.
                         </label>
                         <br/>
                         <label>
-                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course + networking dinner + reservation to the guided visit of the Alhambra, 223€. (+43€ above the base fee for the dinner, <strong>the visit to the alhambra must be paid in the spot</strong>, with an additional cost of 30€).
+                            <input type="radio" name="inputDinner" value="eventPlusVisit" required> Course (180€) + networking dinner (43€) + guided tour of the Alhambra (30€): <b>Total 253€</b>.
                         </label>
                         <label>
                         <br/>
 
-                            <input type="radio" name="inputDinner" value="eventPlusVisitMinusDinner" required> Course + reservation to the guided visit of theAlhambra, without the networking dinner. 180€ (<strong>The visit to the alhambra must be paid in the spot</strong>, with an additional cost of 30€).
+                            <input type="radio" name="inputDinner" value="eventPlusVisitMinusDinner" required> Course (180€) + guided tour of the Alhambra (30€): <b>Total 210€</b>.
                         </label>
                         <br/>
-                        <span><i>Guided tour of the Alhambra plus transportation to the venue: <br/> The visit will be on tuesday, October 22, <strong>with an extra cost of 30 euros.</strong></i></span><br/>
-                        <span><strong>This is only a reservation, <i>for the payment of the visit must be made on the spot.</strong></i></span>
+                        <span><i>Guided tour of the Alhambra plus transportation to the venue will be on tuesday,<b> October 22</b>.</i></span><br/>
                     </div>
+                </div>
+
+                <div class="form-group has-feedback">
+                    <label for="dietaryRequirements" class="control-label">Dietary Requirements:</label>
+                    <textarea rows="4" cols="50" maxlength="190" class="form-control" id="dietaryRequirements"
+                        name="dietaryRequirements" aria-describedby="dietaryRequirements"
+                        placeholder="Some people have specific dietary requirements, tell us about yours."
+                        data-error="Please enter the required information."></textarea>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <span id='remainingC'></span>
+                    <div class="help-block with-errors"></div>
                 </div>
 
                 @include ('layouts.errors')
 
+                <p><strong>This is only a reservation, <i>for the payment you will receive an email with the details.</strong></i></p>
+               <br/>
                 <input type="submit" value="Submit" class="btn btn-success">
             </form>
         </div>
