@@ -12,34 +12,34 @@ if ($gala == "withDinner") {
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<title>GATK registration email</title>
 	<style type="text/css">
-	   @media only screen and (max-width: 550px), screen and (max-device-width: 550px) {
-	    body[yahoo] .hide {
-	      display: none!important;
-	    }
+	      @media only screen and (max-width: 550px), screen and (max-device-width: 550px) {
+	       body[yahoo] .hide {
+	         display: none!important;
+	       }
 
-	    body[yahoo] .buttonwrapper {
-	      background-color: transparent!important;
-	    }
+	       body[yahoo] .buttonwrapper {
+	         background-color: transparent!important;
+	       }
 
-	    body[yahoo] .button {
-	      padding: 0px!important;
-	    }
+	       body[yahoo] .button {
+	         padding: 0px!important;
+	       }
 
-	    body[yahoo] .button a {
-	      background-color: #e05443;
-	      padding: 15px 15px 13px!important;
-	    }
+	       body[yahoo] .button a {
+	         background-color: #e05443;
+	         padding: 15px 15px 13px!important;
+	       }
 
-	    body[yahoo] .unsubscribe {
-	      display: block;
-	      margin-top: 20px;
-	      padding: 10px 50px;
-	      background: #2f3942;
-	      border-radius: 5px;
-	      text-decoration: none!important;
-	      font-weight: bold;
-	    }
-	   }
+	       body[yahoo] .unsubscribe {
+	         display: block;
+	         margin-top: 20px;
+	         padding: 10px 50px;
+	         background: #2f3942;
+	         border-radius: 5px;
+	         text-decoration: none!important;
+	         font-weight: bold;
+	       }
+	      }
 	</style>
 </head>
 <body bgcolor="#F6F8F1" style="margin: 0; padding: 0; min-width: 100%;">
@@ -109,19 +109,21 @@ if ($gala == "withDinner") {
 							<table align="left" border="0" cellpadding="0" cellspacing="0" class="col380" style="width: 100%; max-width: 380px;">
 								<tr>
 									<td>
+										<br>
 										<table border="0" cellpadding="0" cellspacing="0" width="100%">
 											<tr>
-												<td class="bodycopy" style="color: #153643; font-family: sans-serif; font-size: 16px; line-height: 22px;">Please, in order to prepare an invoice we need you to provide us with your <b>tax information:</b></td>
+												<td class="bodycopy" style="color: #153643; font-family: sans-serif; font-size: 16px; line-height: 22px;">Please, in order to issue the invoice we need you to provide us with the tax information of the one finally paying (institution on behalf of the attendee or the attendee himself/herself):</td>
 											</tr>
 											<tr>
 												<td style="padding: 20px 0 0 0;">
 													<table border="0" cellpadding="0" cellspacing="0" width="100%">
 														<tr>
 															<td class="bodycopy" style="color: #153643; font-family: sans-serif; font-size: 16px; line-height: 22px;">
-																<p><b>Full name</b></p>
-																<p><b>NIE / CIF</b></p>
-																<p><b>Organization, institution.</b></p>
-																<p><b>Billing Address</b></p>
+																<p><b>Full name (payer)</b></p>
+																<p><b>NIE / CIF (payer)</b></p>
+																<p><b>Billing Address (payer)</b></p>
+																<p><b>Name of the attendee<br>
+																(if it is different to the payer).</b></p>
 															</td>
 														</tr>
 													</table>
@@ -142,7 +144,6 @@ if ($gala == "withDinner") {
 					</tr>
 					<tr>
 						<td class="innerpadding bodycopy" style="padding: 30px 30px 30px 30px; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 22px;">
-							Please, in order to issue the invoice we need you to provide us with the tax information of the one finally paying (institution on behalf of the attendee or the attendee himself/herself):<br>
 							<br>
 							Finally, you need to make the deposit and send the proof of income to the following email:<br>
 							<b>secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es</b>
