@@ -14,7 +14,7 @@
                 {{ csrf_field() }}
 
                 <h2><i class="far fa-calendar-alt" style="color:#2f88c3"></i> Application for GATK Workshop</h2>
-                <h5>2019-10-21 - 2019-10-24, Granada, Spain.</h5>
+                <h5>2019-10-21 / 2019-10-24, Granada, Spain.</h5>
 
                 <br>
                 <div class="logoGATK">
@@ -171,6 +171,7 @@
                 @include ('layouts.errors')
 
                 <p><strong>This is only a reservation, <i>for the payment you will receive an email with the details.</strong></i></p>
+                <p>If you have any problem or doubt, do not hesitate to contact the following email: <a href="mailto:secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es">secretariatecnica-clinbioinfosspa.fps@juntadeandalucia.es</a></p>
                <br/>
                 <input type="submit" value="Submit" class="btn btn-success">
             </form>
