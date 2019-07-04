@@ -13,8 +13,8 @@
                 enctype="multipart/form-data">
                 {{ csrf_field() }}
 
-                <h2><i class="far fa-calendar-alt" style="color:#2f88c3"></i> Application for GATK Workshop</h2>
-                <h5>2019-10-21 / 2019-10-24, Granada, Spain.</h5>
+                <h2><i class="far fa-calendar-alt" style="color:#2f88c3"></i> Application for GATK Workshop and disease variant prioritization tutorial</h2>
+                <h5>2019-10-21 / 2019-10-25, Granada, Spain.</h5>
 
                 <br>
                 <div class="logoGATK">
