@@ -14,7 +14,8 @@
                 {{ csrf_field() }}
 
                 <h2><i class="far fa-calendar-alt" style="color:#2f88c3"></i> Application for GATK Workshop and disease variant prioritization tutorial</h2>
-                <h5>2019-10-21 / 2019-10-25, Granada, Spain.</h5>
+                <h5 style="color:#006db6;">GATK Workshop - October 21-24, 2019<br/>
+Disease variant prioritization tutorial- October 25, 2019</h5>
 
                 <br>
                 <div class="logoGATK">
@@ -138,11 +139,12 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="dietaryReq" class="control-label">* Dietary Requirements:</label>
+                    <label for="dietaryReq" class="control-label">Dietary Requirements:</label>
                     <textarea rows="4" cols="50" maxlength="190" class="form-control" id="dietaryReqId"
                         name="dietaryReq" aria-describedby="dietaryReq"
-                        placeholder="Some people have specific dietary requirements, tell us about yours."
-                        data-error="Please enter the required information." required></textarea>
+                        placeholder="Please enter your specific dietary requirements, tell us about yours."
+                        data-error="Please enter the required information." required>None or not needed.</textarea>
+                        <span>Some people have specific dietary requirements, tell us about yours.</span>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <span id='remainingC'></span>
                     <div class="help-block with-errors"></div>
@@ -161,10 +163,10 @@
                         </label>
                         <br/>
                         <span><i>Guided tour of the Alhambra plus transportation to the venue will be on tuesday,<b> October 22</b>.</i></span><br/>
+                                        
+                        <span><i>The cost of the guided tour <b>will be approximately 30€</b>, which will be paid <b>at the place of the course</b>.</i></span><br/>
                         <br/>                        
-                        <span><i>The cost of the guided tour <b>will cost approximately 30€</b>, which will be paid <b>at the place of the course</b>.</i></span><br/>
-                        <br/>                        
-                        <span style="color:blue;"><b>NOTE:</b> A minimun number of people will be required in order to book the Alhambra tour.</span>
+                        <span style="color:#006db6;"><b>NOTE:</b> A minimun number of people will be required in order to book the Alhambra tour.</span>
                     </div>
                 </div>
 
