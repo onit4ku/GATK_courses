@@ -166,7 +166,6 @@ if ($gala == "withDinner") {
 							<p><b>BIC/SWIFT:</b> BBVAESMMXXX</p>
 							<p><b>Bank:</b> BBVA</p>
 							<p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p><br>
-							<p>Once the payment has been registered in our system you will receive a confirmation email.</p><br>
 						</td>
 					</tr>
 					<tr>
