@@ -164,7 +164,7 @@ Disease variant prioritization tutorial- October 25, 2019</h5>
                         <br/>
                         <span><i>Guided tour of the Alhambra plus transportation to the venue will be on tuesday,<b> October 22</b>.</i></span><br/>
                                         
-                        <span><i>The cost of the guided tour <b>will be approximately 30€</b>, which will be paid <b>at the place of the course</b>.</i></span><br/>
+                        <span><i>The cost of the guided tour <b>will be approximately 30€</b>Since a minimum number of people is required, the payment will be done by bank transfer once the tour is confirmed by the organization.</i></span><br/>
                         <br/>                        
                         <span style="color:#006db6;"><b>NOTE:</b> A minimun number of people will be required in order to book the Alhambra tour.</span>
                     </div>

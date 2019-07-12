@@ -158,7 +158,7 @@ if ($gala == "withDinner") {
 								<li><b>Guided tour reservation:</b> {{ $dietary }}.</li>
 							</ul>
 							<p>If you have checked the box of the reservation of the visit to the Alhambra, you should keep in mind that it is <b>only a reservation.</b></p>
-							<p>The visit of the Alhambra <b>must be paid in the location of the course, with a cost of 30€</b>, it's not possible to include the fee in the transference.</p><br>
+							<p>The cost of the guided tour <b>will be approximately 30€</b>. Since a minimum number of people is required, <i>the payment will be done by bank transfer once the tour is confirmed by the organization</i></p><br/>
 							<h3>Payment via Bank transfer</h3>
 							<h4>Bank Account Details</h4>
 							<p><b>Account holder:</b> Fundación Progreso y Salud</p>
