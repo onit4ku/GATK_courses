@@ -29,7 +29,7 @@ if ($gala == "withDinner") {
 			<p>Dietas especiales: <b>{{ $alhambra }}</b>.</p>
 			<p>Reserva de la visita guiada: <b>{{ $dietary }}</b>.</p>
 		</div><br>
-		<p style="/* margin: 20px; */"><b>Saludos,<br>
+		<p><b>Saludos,<br>
 		Rubén.</b></p>
 		<div style="padding: 20px;background-color: #b9b9b9;color: white;align-items: center;">
 			<a href="http://www.clinbioinfosspa.es" rel="noopener noreferrer" target="_blank"><img alt="cba logo" src="http://www.clinbioinfosspa.es/files/image/logo-CBA.png" style="height: 75px;"></a> <a href="https://software.broadinstitute.org/gatk/" rel="noopener noreferrer" target="_blank"><img alt="gatk logo" src="http://www.clinbioinfosspa.es/files/image/logoGATK1.png" style="height: 75px;"></a><a href="https://www.broadinstitute.org/" rel="noopener noreferrer" target="_blank"><img alt="broad logo" src="http://www.clinbioinfosspa.es/files/image/logoGATK.png" style="height: 70px;"></a>
