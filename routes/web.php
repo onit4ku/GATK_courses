@@ -19,8 +19,8 @@ Route::post('/upload', 'UploadController@uploadSubmit');
 Route::get('/listadoGATK19','SubmissionsController@index');
 Route::get('/Search','SubmissionsController@search')->name('search');
 
+Route::redirect('/public', '/');
 
-// afsfafgwgrwgwrgwge
 
 Route::get('/', function () {
     // return view('registerclosed');
