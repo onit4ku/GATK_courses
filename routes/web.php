@@ -20,6 +20,8 @@ Route::get('/listadoGATK19','SubmissionsController@index');
 Route::get('/Search','SubmissionsController@search')->name('search');
 
 
+// afsfaf
+
 Route::get('/', function () {
     // return view('registerclosed');
     return view('upload_form');
