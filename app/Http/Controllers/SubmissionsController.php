@@ -14,7 +14,6 @@ class SubmissionsController extends Controller
 
     public function search(Request $request)
     {
-
         if ($request->ajax()) {
 
             $output = "";

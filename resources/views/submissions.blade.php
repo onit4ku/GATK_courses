@@ -7,8 +7,7 @@
 </head>
 
 <body>
-    <!-- <div class="overlay"> -->
-        <div class="container">
+    <div class="container">
         <div class="row">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -16,7 +15,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                        <input class="form-controller" id="search" name="search" type="text" value="">
+                        <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->
                     </div>
                     <table class="table table-bordered table-hover">
                         <thead>
@@ -38,22 +37,25 @@
         </div>
     </div>
     <script type="text/javascript">
-        const search = document.getElementById('search');
+        // const search = document.getElementById('search');
         const tableBody = document.getElementById('tbody');
-        function getContent(){
-            const searchValue = search.value;
+        // function getContent(){
+            // const searchValue = search.value;
                 const xhr = new XMLHttpRequest();
-                xhr.open('GET','{{route('search')}}/?search=' + searchValue ,true);
+                // xhr.open('GET','{{route('search')}}/?search=' + searchValue ,true);
+                xhr.open('GET','/search' ,true);
                 xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-                xhr.onreadystatechange = function() {
+                xhr.onload = function() {
+                // xhr.onreadystatechange = function() {
+                console.log('xhr status: ', xhr.status);
                     if(xhr.readyState == 4 && xhr.status == 200)
                     {
                         tableBody.innerHTML = xhr.responseText;
                     }
                 }
                 xhr.send()
-        }
-        search.addEventListener('input',getContent);
+        // }
+        // search.addEventListener('input',getContent);
     </script>
     </body>
 
