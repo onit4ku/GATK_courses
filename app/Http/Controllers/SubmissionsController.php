@@ -36,7 +36,7 @@ class SubmissionsController extends Controller
                     '</tr>';
                 }
                 
-                echo '<b>Total submissions: ' . $count . '</b>';
+                echo '<th colspan="7" style="color:black; background-color:#f1f1f1">Total submissions: ' . $count . '</th>';
                 return $output;
             }
         }
