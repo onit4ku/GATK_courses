@@ -15,10 +15,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                        <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->
-                  
-                  {{$registerlist}}
-                   
+                        <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->                   
                     </div>
                     <table class="table table-bordered table-hover">
                         <thead>
