@@ -14,16 +14,17 @@ class SubmissionsController extends Controller
 
     public function search(Request $request)
     {
-        if ($request->ajax()) {
 
-            $output = "";
-            $submissions = GATK::where('fullName', 'LIKE', '%' . $request->search . "%")->get();
-
-            $registerlist = GATK::count();
-
+        $count = GATK::count();
+        $output = "";
+        // método previo de búsqueda
+                // if ($request->ajax()) {
+            // $submissions = GATK::where('fullName', 'LIKE', '%' . $request->search . "%")->get();
+            $submissions = GATK::get();
+            
             if ($submissions) {
                 foreach ($submissions as $submission) {
-                  $output .= '<tr>' .
+                    $output .= '<tr>' .
                     '<td>' . $submission->fullName . '</td>' .
                     '<td>' . $submission->institution . '</td>' .
                     '<td>' . $submission->position . '</td>' .
@@ -32,10 +33,12 @@ class SubmissionsController extends Controller
                     '<td>' . $submission->dietaryReq . '</td>' .
                     // '<td>' . $submission->payment . '</td>' .
                     '<td>' . $submission->waitingList . '</td>' .
-                  '</tr>';
+                    '</tr>';
                 }
+                
+                echo '<b>Total submissions: ' . $count . '</b>';
                 return $output;
             }
         }
     }
-}
+// }
