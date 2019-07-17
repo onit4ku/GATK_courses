@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class SubmissionsController extends Controller
 {
-    public function index()
+    public function vista()
     {
         return view('submissions');
     }
