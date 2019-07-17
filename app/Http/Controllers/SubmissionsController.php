@@ -19,10 +19,10 @@ class SubmissionsController extends Controller
             $output = "";
             $submissions = GATK::where('fullName', 'LIKE', '%' . $request->search . "%")->get();
 
+            $registerlist = GATK::count();
+
             if ($submissions) {
-
                 foreach ($submissions as $submission) {
-
                   $output .= '<tr>' .
                     '<td>' . $submission->fullName . '</td>' .
                     '<td>' . $submission->institution . '</td>' .
@@ -30,7 +30,7 @@ class SubmissionsController extends Controller
                     '<td>' . $submission->inputDinner . '</td>' .
                     '<td>' . $submission->inputAlhambra . '</td>' .
                     '<td>' . $submission->dietaryReq . '</td>' .
-                    '<td>' . $submission->payment . '</td>' .
+                    // '<td>' . $submission->payment . '</td>' .
                     '<td>' . $submission->waitingList . '</td>' .
                   '</tr>';
                 }

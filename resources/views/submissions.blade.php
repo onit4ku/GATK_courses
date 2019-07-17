@@ -16,6 +16,9 @@
                 <div class="panel-body">
                     <div class="form-group">
                         <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->
+                  
+                  {{$registerlist}}
+                   
                     </div>
                     <table class="table table-bordered table-hover">
                         <thead>
@@ -26,7 +29,7 @@
                                 <th>Plan</th>
                                 <th>Alhambra</th>
                                 <th>Dietary Req.</th>
-                                <th>Payment</th>
+                                <!-- <th>Payment</th> -->
                                 <th>WaitingList</th>
                             </tr>
                         </thead>
