@@ -167,7 +167,7 @@ if ($gala == "withDinner") {
 							<p><b>Bank:</b> BBVA</p>
 							<p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p><br><br>
 							<h3>Payment via PayPal</h3>
-							<p>With this link at: <a href="PayPal.Me/fprogresoysalud">Paypal Fundación Progreso y Salud</a></p>
+							<p>With this link at: <a href="https://www.paypal.me/fprogresoysalud">Paypal Fundación Progreso y Salud</a></p>
 							<p>PLEASE MENTION YOUR NAME FOLLOWED BY "GATK Workshop 2019" IN YOUR PAYMENT REFERENCE.</p><br>
 						</td>
 					</tr>
