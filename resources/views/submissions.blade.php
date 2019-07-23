@@ -15,7 +15,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                        <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->                   
+                        <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->
                     </div>
                     <table class="table table-bordered table-hover">
                         <thead>
@@ -37,6 +37,7 @@
         </div>
     </div>
     <script type="text/javascript">
+    // antigua forma de mostrar los datos para buscar individuos
         // const search = document.getElementById('search');
         const tableBody = document.getElementById('tbody');
         // function getContent(){
@@ -47,7 +48,7 @@
                 xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
                 xhr.onload = function() {
                 // xhr.onreadystatechange = function() {
-                console.log('xhr status: ', xhr.status);
+                // console.log('xhr status: ', xhr.status);
                     if(xhr.readyState == 4 && xhr.status == 200)
                     {
                         tableBody.innerHTML = xhr.responseText;
@@ -58,5 +59,4 @@
         // search.addEventListener('input',getContent);
     </script>
     </body>
-
 </html>
