@@ -33,10 +33,11 @@ class SubmissionsController extends Controller
                     '<td>' . $submission->dietaryReq . '</td>' .
                     // '<td>' . $submission->payment . '</td>' .
                     '<td>' . $submission->waitingList . '</td>' .
+                    '<td>' . $submission->email . '</td>' .
                     '</tr>';
                 }
                 
-                echo '<th colspan="7" style="color:black; background-color:#f1f1f1">Total submissions: ' . $count . '</th>';
+                echo '<th colspan="8" style="color:black; background-color:#f1f1f1">Total submissions: ' . $count . '</th>';
                 return $output;
             }
         }

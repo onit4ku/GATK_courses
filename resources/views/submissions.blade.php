@@ -28,6 +28,7 @@
                                 <th>Dietary Req.</th>
                                 <!-- <th>Payment</th> -->
                                 <th>WaitingList</th>
+                                <th>Email</th>
                             </tr>
                         </thead>
                         <tbody id='tbody'></tbody>
