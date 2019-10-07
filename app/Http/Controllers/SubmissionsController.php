@@ -22,18 +22,22 @@ class SubmissionsController extends Controller
         // $submissions = GATK::where('fullName', 'LIKE', '%' . $request->search . "%")->get();
         $submissions = GATK::get();
 
+        
         if ($submissions) {
             foreach ($submissions as $submission) {
+                $waiting = $submission->waitingList;
+                $result = ($waiting) ? 'Yes' : 'No';
+
                 $output .= 
                 '<tr>' .
-                    '<td>' . $submission->fullName . '</td>' .
-                    '<td>' . $submission->institution . '</td>' .
-                    '<td>' . $submission->position . '</td>' .
-                    '<td>' . $submission->inputDinner . '</td>' .
+                    '<td>' . $submission->fullName      . '</td>' .
+                    '<td>' . $submission->institution   . '</td>' .
+                    '<td>' . $submission->position      . '</td>' .
+                    '<td>' . $submission->inputDinner   . '</td>' .
                     '<td>' . $submission->inputAlhambra . '</td>' .
-                    '<td>' . $submission->dietaryReq . '</td>' .
-                    '<td>' . $submission->waitingList . '</td>' .
-                    '<td>' . $submission->email . '</td>' .
+                    '<td>' . $submission->dietaryReq    . '</td>' .
+                    '<td>' . $result                    . '</td>' .
+                    '<td>' . $submission->email         . '</td>' .
                 '</tr>';
             }
 
