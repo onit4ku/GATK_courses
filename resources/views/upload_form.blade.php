@@ -154,20 +154,22 @@ Disease variant prioritization tutorial- October 25, 2019</h5>
                     <label for="inputAlhambra" class="control-label">* Reservation of the Alhambra guided tour:</label>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="inputAlhambra" value="yes" required> Yes
+                            <input type="radio" name="inputAlhambra" value="yes" disabled> Yes
                         </label>
                         <span><i></i></span>
                         <label>
                         <br/>
-                            <input type="radio" name="inputAlhambra" value="no" required> No
+                            <input type="radio" name="inputAlhambra" value="no" checked="checked"> No
                         </label>
+                        <br/>
+                        <span style="color:#bd1335;">The deadline has ended in order to reserve the Alhambra guided tour.</span>                        
                         <br/>
                         <span><i>Guided tour of the Alhambra plus transportation to the venue will be on tuesday,<b> October 22</b>.</i></span><br/>
                                         
                         <span><i>The cost of the guided tour <b>will be approximately 30€</b>.<br/>Since a minimum number of people is required, the payment will be done by bank transfer once the tour is confirmed by the organization.</i></span><br/>
                         <br/>                        
                         <span style="color:#006db6;"><b>NOTE:</b> A minimun number of people will be required in order to book the Alhambra tour.</span>
-                    </div>
+                        </div>
                 </div>
 
                 @include ('layouts.errors')
