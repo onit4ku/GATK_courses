@@ -29,6 +29,7 @@
                                 <!-- <th>Payment</th> -->
                                 <th>WaitingList</th>
                                 <th>Email</th>
+                                <!-- <th>Options</th> -->
                             </tr>
                         </thead>
                         <tbody id='tbody'></tbody>

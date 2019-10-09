@@ -38,6 +38,7 @@ class SubmissionsController extends Controller
                     '<td>' . $submission->dietaryReq    . '</td>' .
                     '<td>' . $result                    . '</td>' .
                     '<td>' . $submission->email         . '</td>' .
+                    // '<td><buttontype="submit" class="btn btn-danger">Delete</button> </td>' .
                 '</tr>';
             }
 
