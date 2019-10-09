@@ -10,3 +10,6 @@ Route::get('/', function () {
     // return view('registerclosed');
     return view('upload_form');
 });
+
+//  vue test
+Route::view('/vue', 'app');
