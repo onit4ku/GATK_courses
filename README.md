@@ -12,24 +12,33 @@ Web application made with Laravel, incorporates a form with a list of fields abo
 
 ![screenshot](http://clinbioinfosspa.es/files/image/gatk.png)
 
-This app save the form data in a MySQL database, send emails and notify the user, and checks in the db.
+## This app is capable of
 
-`This is running Laravel version 5.8.`
+* API CRUD
+* Form with 2 types of validation, client and server
+* Form to MySQL database
+* Send email to the register person after validation and email to another address retrieving the information
+
+* Beautiful email template custom made
+* Tested in real events
+
 
 ## Server Requirements
+
+`This App is running Laravel version 6.2.x`
 
 The Laravel framework has a few system requirements. Of course, all of these requirements are satisfied by the Laravel Homestead virtual machine, so it's highly recommended that you use Homestead as your local Laravel development environment.
 
 However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
 
-* PHP >= 7.1.3
-* OpenSSL PHP Extension
-* PDO PHP Extension
-* Mbstring PHP Extension
-* Tokenizer PHP Extension
-* XML PHP Extension
+* PHP >= 7.2.0
 * Ctype PHP Extension
 * JSON PHP Extension
+* Mbstring PHP Extension
+* OpenSSL PHP Extension
+* PDO PHP Extension
+* Tokenizer PHP Extension
+* XML PHP Extension
 
 ### To get running
 
@@ -47,7 +56,7 @@ Create an .env file in the root of the project or use the .env-getting-started a
     APP_DEBUG=false
     APP_LOG_LEVEL=debug
     APP_URL=http://localhost
-    APP_WAITING_LIST_LIMITED=30
+    APP_WAITING_LIST_LIMITED=40
 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -85,7 +94,7 @@ Create an .env file in the root of the project or use the .env-getting-started a
 
     php artisan key:generate
 
-Create the MySQL database Schema with the name GATK_Workshop19, like in your dotenv file.
+Create the MySQL database Schema with the name of the DB in your dotenv file.
 
 ### To create the tables of the db
 
@@ -108,6 +117,8 @@ The migrate:fresh command will drop all tables from the database and then execut
 ### To use the built in php server to run the app
 
     php artisan serve
+
+Your App will be running at `http://localhost:8000`
 
 For more Laravel documentation go for this link
 <https://laravel.com/docs>
