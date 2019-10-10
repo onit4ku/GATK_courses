@@ -14,37 +14,32 @@ class SubmissionsController extends Controller
 
     public function search(Request $request)
     {
-
         $count = GATK::count();
         $output = "";
-        // método previo de búsqueda
-        // if ($request->ajax()) {
-        // $submissions = GATK::where('fullName', 'LIKE', '%' . $request->search . "%")->get();
+     
         $submissions = GATK::get();
 
-        
         if ($submissions) {
             foreach ($submissions as $submission) {
                 $waiting = $submission->waitingList;
-                $result = ($waiting) ? 'Yes' : 'No';
+                $isWaiting = ($waiting) ? 'Yes' : 'No';
 
                 $output .= 
                 '<tr>' .
+                    '<td>' . $submission->id         . '</td>' .
                     '<td>' . $submission->fullName      . '</td>' .
+                    '<td>' . $submission->email         . '</td>' .
                     '<td>' . $submission->institution   . '</td>' .
                     '<td>' . $submission->position      . '</td>' .
                     '<td>' . $submission->inputDinner   . '</td>' .
                     '<td>' . $submission->inputAlhambra . '</td>' .
                     '<td>' . $submission->dietaryReq    . '</td>' .
-                    '<td>' . $result                    . '</td>' .
-                    '<td>' . $submission->email         . '</td>' .
-                    // '<td><buttontype="submit" class="btn btn-danger">Delete</button> </td>' .
+                    '<td>' . $isWaiting                 . '</td>' .
                 '</tr>';
             }
 
-            echo '<th colspan="8" style="color:black; background-color:#f1f1f1">Total submissions: ' . $count . '</th>';
+            echo '<th colspan="9" style="color:black; background-color:#f1f1f1">Total submissions: ' . $count . '</th>';
             return $output;
         }
     }
 }
-// }

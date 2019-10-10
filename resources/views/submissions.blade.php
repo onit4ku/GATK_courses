@@ -15,21 +15,19 @@
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                        <!-- <input class="form-controller" id="search" name="search" type="text" value=""> -->
                     </div>
                     <table class="table table-bordered table-hover">
                         <thead>
                             <tr>
+                                <th>ID</th>
                                 <th>Full Name</th>
+                                <th>Email</th>
                                 <th>Institution</th>
                                 <th>Position</th>
                                 <th>Plan</th>
                                 <th>Alhambra</th>
                                 <th>Dietary Req.</th>
-                                <!-- <th>Payment</th> -->
                                 <th>WaitingList</th>
-                                <th>Email</th>
-                                <!-- <th>Options</th> -->
                             </tr>
                         </thead>
                         <tbody id='tbody'></tbody>
@@ -39,26 +37,18 @@
         </div>
     </div>
     <script type="text/javascript">
-    // antigua forma de mostrar los datos para buscar individuos
-        // const search = document.getElementById('search');
+
         const tableBody = document.getElementById('tbody');
-        // function getContent(){
-            // const searchValue = search.value;
                 const xhr = new XMLHttpRequest();
-                // xhr.open('GET','{{route('search')}}/?search=' + searchValue ,true);
                 xhr.open('GET','/search' ,true);
                 xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
                 xhr.onload = function() {
-                // xhr.onreadystatechange = function() {
-                // console.log('xhr status: ', xhr.status);
                     if(xhr.readyState == 4 && xhr.status == 200)
                     {
                         tableBody.innerHTML = xhr.responseText;
                     }
                 }
                 xhr.send()
-        // }
-        // search.addEventListener('input',getContent);
     </script>
     </body>
 </html>
