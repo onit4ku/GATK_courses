@@ -11,3 +11,6 @@ Route::get('/students/{id}', 'ApiController@showbykey');
 
 // update student data by id
 Route::put('/studentsupdate/{id}', 'ApiController@updatebyid');
+
+// delete student data by id
+Route::delete('/studentdelete/{id}', 'ApiController@deletebyid');
