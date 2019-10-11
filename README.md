@@ -22,8 +22,7 @@ Web application made with Laravel, incorporates a form with a list of fields abo
 * Beautiful email template custom made
 * Tested in real events
 
-
-## Server Requirements
+### Server Requirements
 
 `This App is running Laravel version 6.2.x`
 

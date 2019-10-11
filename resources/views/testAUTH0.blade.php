@@ -1,0 +1,1 @@
+<?php dd(\Auth::user()->getUserInfo()); ?>
